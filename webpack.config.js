@@ -4,11 +4,11 @@ const path = require('path');
 
 module.exports = {
 	module: {
-		preLoaders: [{
-			test: /\.jsx?$/,
-			exclude: /node_modules/,
-			loader: 'xo-loader'
-		}],
+		// preLoaders: [{
+		// 	test: /\.jsx?$/,
+		// 	exclude: /node_modules/,
+		// 	loader: 'xo-loader'
+		// }],
 		loaders: [{
 			test: /\.jsx?$/,
 			exclude: /node_modules/,
@@ -35,12 +35,12 @@ module.exports = {
 	externals: [
 		'react',
 		'react-dom'
-	],
-	xo: {
-		extends: ["xo", "xo-react"],
-		rules: {
-			"quote-props": ["error", "as-needed"],
-			'react/require-optimization': 0
-		}
-	}
+	]
+	// xo: {
+	// 	extends: ["xo", "xo-react"],
+	// 	rules: {
+	// 		"quote-props": ["error", "as-needed"],
+	// 		'react/require-optimization': 0
+	// 	}
+	// }
 };
