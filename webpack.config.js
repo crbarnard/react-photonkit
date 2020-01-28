@@ -3,16 +3,12 @@
 const path = require('path');
 
 module.exports = {
+	mode: "production",
 	module: {
-		// preLoaders: [{
-		// 	test: /\.jsx?$/,
-		// 	exclude: /node_modules/,
-		// 	loader: 'xo-loader'
-		// }],
-		loaders: [{
+		rules: [{
 			test: /\.jsx?$/,
 			exclude: /node_modules/,
-			loaders: ['babel-loader']
+			loader: 'babel-loader'
 		}, {
 			test: /\.css$/,
 			loader: 'style-loader!css-loader'
