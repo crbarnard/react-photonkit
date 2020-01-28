@@ -601,7 +601,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	ActionBar.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ },
@@ -639,6 +639,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _photon = __webpack_require__(13);
 
 	var Photon = _interopRequireWildcard(_photon);
+
+	var _propType = require("prop-types");
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -719,10 +721,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	Button.propTypes = {
-		pullRight: _react2.default.PropTypes.bool,
-		active: _react2.default.PropTypes.bool,
-		form: _react2.default.PropTypes.bool,
-		onClick: _react2.default.PropTypes.func
+		pullRight: _propType.bool,
+		active: _propType.bool,
+		form: _propType.bool,
+		onClick: _propType.func
 	};
 
 /***/ },
@@ -856,9 +858,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	Icon.propTypes = {
-		glyph: _react2.default.PropTypes.string.isRequired,
-		withText: _react2.default.PropTypes.bool,
-		tab: _react2.default.PropTypes.bool
+		glyph: _propType.string.isRequired,
+		withText: _propType.bool,
+		tab: _propType.bool
 	};
 
 /***/ },
@@ -959,10 +961,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	}(_react2.default.Component);
 
 	Component.propTypes = {
-		ptClass: _react2.default.PropTypes.string,
-		ptStyle: _react2.default.PropTypes.string,
-		ptSize: _react2.default.PropTypes.string,
-		ptType: _react2.default.PropTypes.string
+		ptClass: _propType.string,
+		ptStyle: _propType.string,
+		ptSize: _propType.string,
+		ptType: _propType.string
 	};
 
 /***/ },
@@ -1016,7 +1018,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	ButtonGroup.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ },
@@ -1100,8 +1102,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	CheckBox.propTypes = {
-		label: _react2.default.PropTypes.string,
-		checked: _react2.default.PropTypes.bool
+		label: _propType.string,
+		checked: _propType.bool
 	};
 
 /***/ },
@@ -1155,7 +1157,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	Content.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ },
@@ -1239,7 +1241,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	Input.propTypes = {
-		label: _react2.default.PropTypes.string
+		label: _propType.string
 	};
 
 /***/ },
@@ -1337,7 +1339,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	ListGroup.propTypes = {
-		draggable: _react2.default.PropTypes.bool
+		draggable: _propType.bool
 	};
 
 /***/ },
@@ -2679,10 +2681,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	ListItem.propTypes = {
-		active: _react2.default.PropTypes.bool,
-		image: _react2.default.PropTypes.string,
-		title: _react2.default.PropTypes.string.isRequired,
-		subtitle: _react2.default.PropTypes.string
+		active: _propType.bool,
+		image: _propType.string,
+		title: _propType.string.isRequired,
+		subtitle: _propType.string
 	};
 
 	ListItem.defaultProps = {
@@ -2819,9 +2821,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	NavGroup.propTypes = {
-		activeKey: _react2.default.PropTypes.any,
-		onSelect: _react2.default.PropTypes.func,
-		draggable: _react2.default.PropTypes.bool
+		activeKey: _propType.any,
+		onSelect: _propType.func,
+		draggable: _propType.bool
 	};
 
 /***/ },
@@ -2918,9 +2920,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	NavGroupItem.propTypes = {
-		active: _react2.default.PropTypes.bool,
-		text: _react2.default.PropTypes.string.isRequired,
-		glyph: _react2.default.PropTypes.string
+		active: _propType.bool,
+		text: _propType.string.isRequired,
+		glyph: _propType.string
 	};
 
 /***/ },
@@ -2974,7 +2976,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	NavTitle.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ },
@@ -3060,7 +3062,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	Options.propTypes = {
-		items: _react2.default.PropTypes.array
+		items: _propType.array
 	};
 
 /***/ },
@@ -3128,7 +3130,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	Pane.propTypes = {
-		sidebar: _react2.default.PropTypes.bool
+		sidebar: _propType.bool
 	};
 
 	Pane.defaultProps = {
@@ -3187,7 +3189,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	PaneGroup.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ },
@@ -3261,7 +3263,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	Radio.propTypes = {
-		label: _react2.default.PropTypes.string
+		label: _propType.string
 	};
 
 /***/ },
@@ -3354,8 +3356,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	RadioGroup.propTypes = {
-		children: _react2.default.PropTypes.node,
-		name: _react2.default.PropTypes.string.isRequired
+		children: _propType.node,
+		name: _propType.string.isRequired
 	};
 
 /***/ },
@@ -3514,9 +3516,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	TabGroup.propTypes = {
-		activeKey: _react2.default.PropTypes.any,
-		onSelect: _react2.default.PropTypes.func,
-		draggable: _react2.default.PropTypes.bool
+		activeKey: _propType.any,
+		onSelect: _propType.func,
+		draggable: _propType.bool
 	};
 
 /***/ },
@@ -3609,9 +3611,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	TabItem.propTypes = {
-		active: _react2.default.PropTypes.bool,
-		title: _react2.default.PropTypes.string.isRequired,
-		glyph: _react2.default.PropTypes.string
+		active: _propType.bool,
+		title: _propType.string.isRequired,
+		glyph: _propType.string
 	};
 
 /***/ },
@@ -3673,7 +3675,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	Table.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ },
@@ -3751,9 +3753,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	TableArea.propTypes = {
-		children: _react2.default.PropTypes.node,
-		placeholder: _react2.default.PropTypes.string,
-		label: _react2.default.PropTypes.string
+		children: _propType.node,
+		placeholder: _propType.string,
+		label: _propType.string
 	};
 
 /***/ },
@@ -3852,7 +3854,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	Toolbar.propTypes = {
-		title: _react2.default.PropTypes.string
+		title: _propType.string
 	};
 
 /***/ },
@@ -3906,7 +3908,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	Window.propTypes = {
-		children: _react2.default.PropTypes.node
+		children: _propType.node
 	};
 
 /***/ }
