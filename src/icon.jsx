@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import * as Photon from './photon.jsx';
+import PropTypes from 'prop-types';
 
 export default class Icon extends Photon.Component {
 	render() {
@@ -29,7 +30,7 @@ Icon.defaultProps = {
 };
 
 Icon.propTypes = {
-	glyph: React.PropTypes.string.isRequired,
-	withText: React.PropTypes.bool,
-	tab: React.PropTypes.bool
+	glyph: PropTypes.string.isRequired,
+	withText: PropTypes.bool,
+	tab: PropTypes.bool
 };

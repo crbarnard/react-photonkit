@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import * as Photon from './photon.jsx';
 import Sortable from 'sortablejs';
+import PropTypes from 'prop-types';
 
 export default class TabGroup extends Photon.Component {
 	constructor(props) {
@@ -96,7 +97,7 @@ TabGroup.defaultProps = {
 };
 
 TabGroup.propTypes = {
-	activeKey: React.PropTypes.any,
-	onSelect: React.PropTypes.func,
-	draggable: React.PropTypes.bool
+	activeKey: PropTypes.any,
+	onSelect: PropTypes.func,
+	draggable: PropTypes.bool
 };

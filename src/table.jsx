@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Table extends React.Component {
 	constructor(props) {
@@ -21,5 +22,5 @@ export default class Table extends React.Component {
 }
 
 Table.propTypes = {
-	children: React.PropTypes.node
+	children: PropTypes.node
 };

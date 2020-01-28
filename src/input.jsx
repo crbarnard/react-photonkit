@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Photon from './photon.jsx';
+import PropTypes from 'prop-types';
 
 export default class Input extends Photon.Component {
 	constructor(props) {
@@ -31,5 +32,5 @@ Input.defaultProps = {
 };
 
 Input.propTypes = {
-	label: React.PropTypes.string
+	label: PropTypes.string
 };

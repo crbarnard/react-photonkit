@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Photon from './photon.jsx';
+import PropTypes from 'prop-types';
 
 export default class Radio extends Photon.Component {
 	handleChangeRadio(event) {
@@ -21,5 +22,5 @@ export default class Radio extends Photon.Component {
 }
 
 Radio.propTypes = {
-	label: React.PropTypes.string
+	label: PropTypes.string
 };

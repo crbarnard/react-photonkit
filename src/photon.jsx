@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const styleMaps = {
 	CLASSES: {
@@ -66,8 +67,8 @@ export class Component extends React.Component {
 }
 
 Component.propTypes = {
-	ptClass: React.PropTypes.string,
-	ptStyle: React.PropTypes.string,
-	ptSize: React.PropTypes.string,
-	ptType: React.PropTypes.string
+	ptClass: PropTypes.string,
+	ptStyle: PropTypes.string,
+	ptSize: PropTypes.string,
+	ptType: PropTypes.string
 };

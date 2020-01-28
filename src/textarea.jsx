@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class TableArea extends React.Component {
 	constructor(props) {
@@ -28,7 +29,7 @@ export default class TableArea extends React.Component {
 }
 
 TableArea.propTypes = {
-	children: React.PropTypes.node,
-	placeholder: React.PropTypes.string,
-	label: React.PropTypes.string
+	children: PropTypes.node,
+	placeholder: PropTypes.string,
+	label: PropTypes.string
 };

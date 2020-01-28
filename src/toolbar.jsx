@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import * as Photon from './photon.jsx';
+import PropTypes from 'prop-types';
 
 export default class Toolbar extends Photon.Component {
 	constructor(props) {
@@ -46,5 +47,5 @@ Toolbar.defaultProps = {
 };
 
 Toolbar.propTypes = {
-	title: React.PropTypes.string
+	title: PropTypes.string
 };

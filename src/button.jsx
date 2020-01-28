@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import Icon from './icon.jsx';
 import * as Photon from './photon.jsx';
+import PropTypes from 'prop-types';
 
 export default class Button extends Photon.Component {
 	constructor(props) {
@@ -58,8 +59,8 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-	pullRight: React.PropTypes.bool,
-	active: React.PropTypes.bool,
-	form: React.PropTypes.bool,
-	onClick: React.PropTypes.func
+	pullRight: PropTypes.bool,
+	active: PropTypes.bool,
+	form: PropTypes.bool,
+	onClick: PropTypes.func
 };

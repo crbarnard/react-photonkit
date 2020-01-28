@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import * as Photon from './photon.jsx';
 import Sortable from 'sortablejs';
+import PropTypes from 'prop-types';
 
 export default class ListGroup extends Photon.Component {
 	constructor(props) {
@@ -45,5 +46,5 @@ ListGroup.defaultProps = {
 };
 
 ListGroup.propTypes = {
-	draggable: React.PropTypes.bool
+	draggable: PropTypes.bool
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import Icon from './icon.jsx';
 import * as Photon from './photon.jsx';
+import PropTypes from 'prop-types';
 
 export default class TabItem extends Photon.Component {
 	getIconComponent() {
@@ -35,7 +36,7 @@ TabItem.defaultProps = {
 };
 
 TabItem.propTypes = {
-	active: React.PropTypes.bool,
-	title: React.PropTypes.string.isRequired,
-	glyph: React.PropTypes.string
+	active: PropTypes.bool,
+	title: PropTypes.string.isRequired,
+	glyph: PropTypes.string
 };
